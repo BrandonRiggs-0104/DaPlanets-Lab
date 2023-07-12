@@ -1,0 +1,13 @@
+
+  {
+    "name": "daplanets-lab",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd DaPlanets-Lab.client && npm i",
+      "setup:server": "cd DaPlanets-Lab && npm i",
+      "start": "node DaPlanets-Lab/index.js"
+    }
+  }
+  
